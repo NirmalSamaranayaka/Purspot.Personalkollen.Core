@@ -6,7 +6,7 @@ As per my understanding our goal is "Pursoft different systems" to integrate wit
 Furthermore, suggesting middleware implementation related layers architecture as below.
 ![image](https://user-images.githubusercontent.com/86515501/202280458-07446e68-4a94-4be4-83af-63fdd8d5c937.png)
 
-I have followed the SOLID principle, design patterns(Adapter Pattern) and loosely coupled multi layered architecture for this implementation. As technologies that I used .Net 6, Web API and .Net 6 class libraries for development, source code maintenance with Azure Git and hosted API using Azure PAAS WebApps. 
+I have followed the SOLID principle, design patterns(Adapter Pattern, Decorator Pattern) and loosely coupled multi layered architecture for this implementation. As technologies that I used .Net 6, Web API and .Net 6 class libraries for development, source code maintenance with Azure Git and hosted API using Azure PAAS WebApps. 
 
 Please refer below screenshots for .Net middleware API implementation.
 
