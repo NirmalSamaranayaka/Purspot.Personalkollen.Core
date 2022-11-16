@@ -45,7 +45,7 @@ System related all interfaces planning to maintain using "Purspot.Personalkollen
 System related all error messages planning to maintain using "Purspot.Personalkollen.Core.Resources" class library
 
 ![image](https://user-images.githubusercontent.com/86515501/202281089-c8855ce9-e522-48a8-a9c2-3491f00d753a.png)
-image.png
+![image](https://user-images.githubusercontent.com/86515501/202282559-aa1a6069-73ba-4b93-b1ac-5bef8600f7b8.png)
 
 System related all common services planning to maintain using "Purspot.Personalkollen.Core.Common" class library
 ![image](https://user-images.githubusercontent.com/86515501/202281160-87ce2b3d-c1ba-4c93-a1ba-6fad778042a4.png)
