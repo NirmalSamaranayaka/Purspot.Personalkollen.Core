@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Purspot.Personalkollen.Core.Contracts\Purspot.Personalkollen.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Purspot.Personalkollen.Core.Entities\Purspot.Personalkollen.Core.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="SalesErrorResourceMessageHandler.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SalesErrorResourceMessageHandler.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="SalesErrorResourceMessageHandler.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SalesErrorResourceMessageHandler.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

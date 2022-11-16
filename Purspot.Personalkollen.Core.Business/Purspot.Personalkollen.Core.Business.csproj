@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Purspot.Personalkollen.Core.Contracts\Purspot.Personalkollen.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Purspot.Personalkollen.Core.Entities\Purspot.Personalkollen.Core.Entities.csproj" />
+    <ProjectReference Include="..\Purspot.Personalkollen.Core.Services\Purspot.Personalkollen.Core.Services.csproj" />
+  </ItemGroup>
+
+</Project>

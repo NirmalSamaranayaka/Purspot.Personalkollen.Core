@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Purspot.Personalkollen.Core.Api", "Purspot.Personalkollen.Core.Api\Purspot.Personalkollen.Core.Api.csproj", "{522CBE29-323D-4D2C-B6B6-22C2AE28C39E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{921DF888-B711-4D31-B01C-4399F7FFF261}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{76A530DB-1971-4611-AE62-E3CBE156364C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{BAA60367-D903-4ACB-89A0-C142D24B0B13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{0D9CA971-24C9-4A3F-82B3-86E4192071FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{D72E9B95-75B4-4807-B978-E414595BDB59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purspot.Personalkollen.Core.Business", "Purspot.Personalkollen.Core.Business\Purspot.Personalkollen.Core.Business.csproj", "{9D807F86-459C-4529-85CC-D0563DA25C15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purspot.Personalkollen.Core.Data", "Purspot.Personalkollen.Core.Data\Purspot.Personalkollen.Core.Data.csproj", "{5494D5FC-3D55-4EE2-88F5-03FFB8E49049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purspot.Personalkollen.Core.Common", "Purspot.Personalkollen.Core.Common\Purspot.Personalkollen.Core.Common.csproj", "{B2E718BA-8E79-44B3-9618-8DA94074EF61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purspot.Personalkollen.Core.Entities", "Purspot.Personalkollen.Core.Entities\Purspot.Personalkollen.Core.Entities.csproj", "{CFB807B8-5384-4605-A2D6-976A08587306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purspot.Personalkollen.Core.Contracts", "Purspot.Personalkollen.Core.Contracts\Purspot.Personalkollen.Core.Contracts.csproj", "{A4A3168F-A450-41F3-A5D5-6EC9FCB984D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purspot.Personalkollen.Core.Resources", "Purspot.Personalkollen.Core.Resources\Purspot.Personalkollen.Core.Resources.csproj", "{332C5815-736D-4B14-86C7-FD51B5E0B616}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Purspot.Personalkollen.Core.Database", "Purspot.Personalkollen.Core.Database\Purspot.Personalkollen.Core.Database.sqlproj", "{D0DB5DEE-F037-4903-BB04-719EDA57A17A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purspot.Personalkollen.Core.DataContext", "Purspot.Personalkollen.Core.DataContext\Purspot.Personalkollen.Core.DataContext.csproj", "{126274F5-B54F-4F95-87C8-775EA6F380A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purspot.Personalkollen.Core.Services", "Purspot.Personalkollen.Core.Services\Purspot.Personalkollen.Core.Services.csproj", "{EAC69C3E-7B6D-47C0-82C5-C45792E9336E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{522CBE29-323D-4D2C-B6B6-22C2AE28C39E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522CBE29-323D-4D2C-B6B6-22C2AE28C39E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522CBE29-323D-4D2C-B6B6-22C2AE28C39E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522CBE29-323D-4D2C-B6B6-22C2AE28C39E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D807F86-459C-4529-85CC-D0563DA25C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D807F86-459C-4529-85CC-D0563DA25C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D807F86-459C-4529-85CC-D0563DA25C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D807F86-459C-4529-85CC-D0563DA25C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5494D5FC-3D55-4EE2-88F5-03FFB8E49049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5494D5FC-3D55-4EE2-88F5-03FFB8E49049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5494D5FC-3D55-4EE2-88F5-03FFB8E49049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5494D5FC-3D55-4EE2-88F5-03FFB8E49049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E718BA-8E79-44B3-9618-8DA94074EF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E718BA-8E79-44B3-9618-8DA94074EF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E718BA-8E79-44B3-9618-8DA94074EF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E718BA-8E79-44B3-9618-8DA94074EF61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB807B8-5384-4605-A2D6-976A08587306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB807B8-5384-4605-A2D6-976A08587306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB807B8-5384-4605-A2D6-976A08587306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB807B8-5384-4605-A2D6-976A08587306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4A3168F-A450-41F3-A5D5-6EC9FCB984D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A3168F-A450-41F3-A5D5-6EC9FCB984D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A3168F-A450-41F3-A5D5-6EC9FCB984D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A3168F-A450-41F3-A5D5-6EC9FCB984D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{332C5815-736D-4B14-86C7-FD51B5E0B616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{332C5815-736D-4B14-86C7-FD51B5E0B616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{332C5815-736D-4B14-86C7-FD51B5E0B616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{332C5815-736D-4B14-86C7-FD51B5E0B616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DB5DEE-F037-4903-BB04-719EDA57A17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DB5DEE-F037-4903-BB04-719EDA57A17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DB5DEE-F037-4903-BB04-719EDA57A17A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D0DB5DEE-F037-4903-BB04-719EDA57A17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DB5DEE-F037-4903-BB04-719EDA57A17A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DB5DEE-F037-4903-BB04-719EDA57A17A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{126274F5-B54F-4F95-87C8-775EA6F380A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126274F5-B54F-4F95-87C8-775EA6F380A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126274F5-B54F-4F95-87C8-775EA6F380A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126274F5-B54F-4F95-87C8-775EA6F380A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC69C3E-7B6D-47C0-82C5-C45792E9336E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC69C3E-7B6D-47C0-82C5-C45792E9336E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC69C3E-7B6D-47C0-82C5-C45792E9336E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC69C3E-7B6D-47C0-82C5-C45792E9336E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{522CBE29-323D-4D2C-B6B6-22C2AE28C39E} = {76A530DB-1971-4611-AE62-E3CBE156364C}
+		{9D807F86-459C-4529-85CC-D0563DA25C15} = {0D9CA971-24C9-4A3F-82B3-86E4192071FD}
+		{5494D5FC-3D55-4EE2-88F5-03FFB8E49049} = {D72E9B95-75B4-4807-B978-E414595BDB59}
+		{B2E718BA-8E79-44B3-9618-8DA94074EF61} = {921DF888-B711-4D31-B01C-4399F7FFF261}
+		{CFB807B8-5384-4605-A2D6-976A08587306} = {921DF888-B711-4D31-B01C-4399F7FFF261}
+		{A4A3168F-A450-41F3-A5D5-6EC9FCB984D7} = {921DF888-B711-4D31-B01C-4399F7FFF261}
+		{332C5815-736D-4B14-86C7-FD51B5E0B616} = {921DF888-B711-4D31-B01C-4399F7FFF261}
+		{D0DB5DEE-F037-4903-BB04-719EDA57A17A} = {D72E9B95-75B4-4807-B978-E414595BDB59}
+		{126274F5-B54F-4F95-87C8-775EA6F380A3} = {D72E9B95-75B4-4807-B978-E414595BDB59}
+		{EAC69C3E-7B6D-47C0-82C5-C45792E9336E} = {BAA60367-D903-4ACB-89A0-C142D24B0B13}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CC0C9BF-72FC-4519-BF3A-22577D065449}
+	EndGlobalSection
+EndGlobal

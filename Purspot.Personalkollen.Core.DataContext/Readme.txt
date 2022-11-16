@@ -1,0 +1,1 @@
+﻿If you use EFCore you can use this layer for DB context and automatic models

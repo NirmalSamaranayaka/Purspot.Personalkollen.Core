@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Purspot.Personalkollen.Core.Business\Purspot.Personalkollen.Core.Business.csproj" />
+    <ProjectReference Include="..\Purspot.Personalkollen.Core.Common\Purspot.Personalkollen.Core.Common.csproj" />
+    <ProjectReference Include="..\Purspot.Personalkollen.Core.Contracts\Purspot.Personalkollen.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Purspot.Personalkollen.Core.Entities\Purspot.Personalkollen.Core.Entities.csproj" />
+    <ProjectReference Include="..\Purspot.Personalkollen.Core.Resources\Purspot.Personalkollen.Core.Resources.csproj" />
+    <ProjectReference Include="..\Purspot.Personalkollen.Core.Services\Purspot.Personalkollen.Core.Services.csproj" />
+  </ItemGroup>
+
+</Project>

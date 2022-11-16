@@ -1,0 +1,1 @@
+﻿If you going to do any ORM integrattion you can do here
