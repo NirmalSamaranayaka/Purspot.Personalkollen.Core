@@ -15,7 +15,8 @@ Please refer below screenshots for .Net middleware API implementation.
 
 
 Temporary hosted as a API in Azure 
-![image](https://user-images.githubusercontent.com/86515501/202280608-ee0367ff-45c3-4506-b8d4-b7388f574e02.png)
+![202280608-ee0367ff-45c3-4506-b8d4-b7388f574e02](https://user-images.githubusercontent.com/86515501/202373684-de79f1c9-9e35-4919-9499-334967d8b799.png)
+
 
 I have enabled swagger documentation for your reference in Azure hosted API.
 https://purspot-personalkollen-integration-dev.azurewebsites.net/swagger/index.html
