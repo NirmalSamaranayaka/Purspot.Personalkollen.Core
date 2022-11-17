@@ -10,7 +10,7 @@ I have followed the SOLID principle, design patterns(Adapter Pattern, Decorator 
 
 Please refer below screenshots for .Net middleware API implementation.
 
-![image](https://user-images.githubusercontent.com/86515501/202280517-3cabd1f3-567e-4220-b71e-56552e14cd37.png)
+![image](https://user-images.githubusercontent.com/86515501/202373251-06ad660f-c4e8-474f-abd5-968a93a332bb.png)
 ![image](https://user-images.githubusercontent.com/86515501/202372969-13b29911-a850-4bd8-ab94-8efc15d6418c.png)
 
 
